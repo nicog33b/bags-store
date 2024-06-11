@@ -3,9 +3,9 @@ import React from 'react';
 const ToolsNavBar: React.FC = () => {
   return (
     <nav className="flex justify-between items-center px-6 p-2 shadow-md montserrat-300">
-      <ul className="flex space-x-4">
+      <ul className="flex space-x-6">
         {['NEW IN','BAGS','ACCESSORIES'].map((item) => (
-          <li key={item} className="hover:text-red-500  text-sm cursor-pointer">
+          <li key={item} className="hover:text-red-500  text-xs cursor-pointer">
             {item}
           </li>
         ))}
